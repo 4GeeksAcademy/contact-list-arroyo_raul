@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.contactos-container {
+    display: flex;
+    justify-content:flex-start;
+    gap: 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contacto {
+    width: 30%;
+    display: flex;
+    flex-direction:row;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 9px 20px 1px;
+}
+
+.info-left {
+    display: flex;
+    align-items: center;
+    width: 35%;
+}
+
+img {
+    width: 100%;
+    border-radius: 50%;
+    float: left;
+}
+
+.info-contacto {
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.datos-personales{
+    width: 80%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.calle-contacto, .tel-contacto, .email-contacto, .eliminar, .editar {
+    margin: 0;
+    padding: 0;
+}
+
+.info-secundaria {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.acciones {
+    width: 20%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.editar {
+    color: orange;
+    cursor: pointer;
+}
+
+.eliminar {
+    color: red;
+    cursor: pointer;
+}
+
+.calle-contacto, .tel-contacto, .email-contacto {
+    color: grey
+}
