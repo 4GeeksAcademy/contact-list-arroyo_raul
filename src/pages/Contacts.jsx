@@ -25,14 +25,14 @@ export const Contacts = () => {
                             <div className="datos-personales">
                                 <h5 className="nombre-contacto">{contacto.name}</h5>
                                 <div className="info-secundaria">
-                                    <p className="calle-contacto"><i class="fa-solid fa-location-dot"></i> {contacto.address}</p>
-                                    <p className="tel-contacto"><i class="fa-solid fa-phone"></i> {contacto.phone}</p>
-                                    <p className="email-contacto"><i class="fa-solid fa-envelope"></i> {contacto.email}</p>
+                                    <p className="calle-contacto"><i className="fa-solid fa-location-dot"></i> {contacto.address}</p>
+                                    <p className="tel-contacto"><i className="fa-solid fa-phone"></i> {contacto.phone}</p>
+                                    <p className="email-contacto"><i className="fa-solid fa-envelope"></i> {contacto.email}</p>
                                 </div>
                             </div>
                             <div className="acciones">
-                                <p className="editar"><i class="fa-solid fa-pen-to-square"></i></p>
-                                <p className="eliminar"><i class="fa-solid fa-x"></i></p>
+                                <p className="editar"><i className="fa-solid fa-pen-to-square"></i></p>
+                                <p className="eliminar"><i className="fa-solid fa-x"></i></p>
                             </div>
                         </div>
                     </div>

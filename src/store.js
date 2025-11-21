@@ -15,13 +15,12 @@ export default function storeReducer(store, action = {}) {
         contactos: contactos || [] 
       };
 
-    case 'add_task':
-
-      const { id,  color } = action.payload
+    case 'create_contact':
+      const { contacto } = action.payload
 
       return {
         ...store,
-        todos: store.todos.map((todo) => (todo.id === id ? { ...todo, background: color } : todo))
+        contactos: [...store.contactos, contacto]
       };
     default:
       throw Error('Unknown action.');
